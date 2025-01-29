@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #add8e6;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+        }
+        .photo {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+        }
+        .contact-info, .education, .experience, .skills, .academic-table, .projects, .certifications, .achievements, .languages {
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>Soham Karle</h1>
+            <p>Software Engineer</p>
+        </div>
+        <img src="C:\Users\student\Downloads\photo..jpeg" height=100 width=100>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><span class="material-icons">email</span> Email:sohamkarle317@gmail.com</p>
+            <p><span class="material-icons">phone</span> Phone:9854754962</p>
+            <p><span class="material-icons">location_on</span> Address: Pune, India</p>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Science in Computer Science</strong>, Pimpri Chinchwad University,Pune (M.H) 2024</li>
+                <li><strong> Class 12th from</strong>,Amrita jr college</li>
+                <li><strong> Class 10th from</strong>,VNEMS</li>
+            </ul>
+        </div>
+        <div class="academic-table">
+            <h2>Academic Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Class 10th</td>
+                        <td>80.8%</td>
+                    </tr>
+                    <tr>
+                        <td>Class 12th</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Semester 1 CGPA</td>
+                        <td>7.95</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Software Engineer</strong> at XYZ Corp, 2025 - Present</li>
+                <li>Worked on various web development projects using HTML, CSS, JavaScript, and backend technologies.</li>
+                
+            </ul>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java</li>
+                <li>React, Node.js</li>
+            </ul>
+        </div>
+        <div class="projects">
+            <h2>Mini Projects</h2>
+            <ul>
+                <li>Project 1: Description</li>
+                <li>Project 2: Description</li>
+            </ul>
+        </div>
+       
+        </div>
+   
+    </div>
+</body>
+</html>
