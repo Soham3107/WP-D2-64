@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket Basics</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+            font-family: Arial, sans-serif;
+            color: #333; /* Dark text color */
+        }
+        h1 {
+            color: #006400; /* Dark green heading */
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cricket - A Popular Sport</h1>
+    <p><strong>Cricket</strong> is a game played between two teams of 11 players each. It is a <u>bat-and-ball</u> sport that originated in <i>England</i>.</p>
+    <p style="color: #000080;">The game is played on a <span style="font-weight: bold;">circular field</span> with a <span style="font-style: italic;">pitch</span> in the center.</p>
+    <h2>Basic Rules:</h2>
+    <ul>
+        <li>One team bats to score runs.</li>
+        <li>The other team bowls and fields to restrict runs.</li>
+        <li>The team with the highest runs wins!</li>
+    </ul>
+    <p style="color: #800000;"><strong>Fun Fact:</strong> The most popular cricket tournaments include the <span style="text-decoration: underline;">ICC World Cup</span> and the IPL.</p>
+</body>
+</html>
